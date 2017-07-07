@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  div.container
+    h2 #{title}
+    hr
+    table.table.table-hover.table-bordered.table-striped
+      thead
+        tr
+          td 用户名
+          td 密码
+          td 注册时间
+          td 更新时间
+        each user in users
+          tr
+            td #{user.name}
+            td #{user.password}
+            td #{moment(user.meta.createAt).format('YYYY-MM-DD hh:mm:ss')}
+            td #{moment(user.meta.updateAt).format('YYYY-MM-DD hh:mm:ss')}
+
+
+
