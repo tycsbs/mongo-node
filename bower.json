@@ -1,0 +1,20 @@
+{
+  "name": "mongoweb",
+  "description": "test mongodb width node",
+  "main": "app.js",
+  "authors": [
+    "baisong"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "mongoWeb"
+  ],
+  "homepage": "index",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

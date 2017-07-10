@@ -1,6 +1,6 @@
 {
   "name": "mongoweb",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -19,5 +19,21 @@
     "serve-favicon": "~2.3.2",
     "session": "^0.1.0",
     "stylus": "0.54.5"
-  }
+  },
+  "description": "test mongodb width node",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tycsbs/mongo-node.git"
+  },
+  "keywords": [
+    "mongoWeb"
+  ],
+  "author": "baisong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tycsbs/mongo-node/issues"
+  },
+  "homepage": "https://github.com/tycsbs/mongo-node#readme"
 }
