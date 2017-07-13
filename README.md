@@ -1,7 +1,12 @@
 # project initial with mongodb and node Express Stack
 ---
-### Clone it on your PC
-> git+https://github.com/tycsbs/mongo-node.git
+### make a directory on your PC and use express-generator initial a project
+```
+ express myApp jade
+ cd myApp
+ npm install
+```
+### Clone the code into the director
 ### Add the node_modules and bower_components dependence
 ```
  npm install
@@ -9,7 +14,8 @@
 ```
 ### start the project
 ```
- node app.js
+ cd bin
+ node www
  or
  node start
 ```
